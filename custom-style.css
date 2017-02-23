@@ -112,6 +112,11 @@
   font-size: 16px;
   font-size: 1rem;
   font-style: normal; }
+.testimonial-slider-title {
+  color: #B3BFB8;
+  font-size: 26px;
+  font-size: 1.75em; }
+}
 .testimonial-slider .flex-control-nav {
   list-style: none;
   margin-left: 140px; }
@@ -130,44 +135,6 @@
       text-indent: -9999px; }
       .testimonial-slider .flex-control-nav li a.flex-active {
         background-color: #A2E3C4; }
-
-.client-grid {
-  *zoom: 1; }
-  .client-grid:after {
-    content: " ";
-    clear: both;
-    display: block;
-    overflow: hidden;
-    height: 0; }
-  .client-grid .client {
-    width: 25%;
-    float: left;
-    height: 230px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    border-left: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8; }
-    .client-grid .client:first-child, .client-grid .client:nth-child(5n) {
-      border-left: none; }
-    .client-grid .client:nth-child(5), .client-grid .client:nth-child(6), .client-grid .client:nth-child(7), .client-grid .client:nth-child(8) {
-      border-bottom: none; }
-    @media screen and (max-width: 768px) {
-      .client-grid .client {
-        width: 50%;
-        border-left: 1px solid #e8e8e8; }
-        .client-grid .client:nth-child(5n) {
-          border-right: 1px solid #e8e8e8; }
-        .client-grid .client:nth-child(3n) {
-          border-left: none; }
-        .client-grid .client:nth-child(7) {
-          border-left: none; }
-        .client-grid .client:nth-child(5), .client-grid .client:nth-child(6) {
-          border-bottom: 1px solid #e8e8e8; } }
-    .client-grid .client img {
-      margin: auto;
-      max-width: 80%; }
 
 .map {
   min-height: 450px; }
@@ -370,7 +337,7 @@
     margin: 0; }
 
 .hero {
-  background: #7E8D85;
+  background: ;
   text-align: center;
   padding: 50px 0; }
   .hero img {
@@ -387,15 +354,24 @@
       font-size: 20px;
       font-size: 1.25em; }
   .hero .button, .hero form input[type="submit"], form .hero input[type="submit"], .hero form button, form .hero button, .hero form input[type="reset"], form .hero input[type="reset"] {
-    background: #303236;
+    background: #333333;
     font-size: 20px;
     font-size: 1.25em;
     padding: 10px 30px; }
 
 .fullwidth-block {
-  padding: 70px 0; }
+  padding: 40px 0;
+  color: #333333; }
   .fullwidth-block img {
     max-width: 100%; }
+
+.fullwidth-block-dark {
+  padding: 40px 0;
+  background-color: #7E8D85;
+  color: #F0F7F4  ; }
+  .fullwidth-block-dark img {
+    max-width: 100%; }
+   }
 
 .cta {
   background-color: #ede6e6;
